@@ -4,7 +4,22 @@
              x:Class="DemoNavigationPage.App">
 	<Application.Resources>
 
-		<!-- Application resource dictionary -->
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="FontSize"></Setter>
+                <Setter Property="Margin" Value="10"></Setter>
+                <Setter Property="BackgroundColor" Value="BlueViolet"></Setter>
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand"></Setter>
+                <Setter Property="TextColor" Value="Write"></Setter>
+            </Style>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="large"></Setter>
+                <Setter Property="FontAttributes" Value="Bold,Italic"></Setter>
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand"></Setter>
+                <Setter Property="VerticalOptions" Value="CenterAndExpand"></Setter>
 
-	</Application.Resources>
+            </Style>
+        </ResourceDictionary>
+
+    </Application.Resources>
 </Application>
